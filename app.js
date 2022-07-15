@@ -10,6 +10,7 @@ app = express();
 //APP CONFIG
 mongoose
   .connect(
+    // process.env.MONGODB_URI ||
     "mongodb+srv://kashishvir:4325kashish@cluster0.mmbqy.mongodb.net/?retryWrites=true&w=majority",
     { useNewUrlParser: true }
   )
